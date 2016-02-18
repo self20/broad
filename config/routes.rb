@@ -30,6 +30,7 @@ Rails.application.routes.draw do
   end
 
   resources :movie_searches, only: [:create, :index]
+  resources :movie_search_details, only: [:show]
   resources :movies, only: [:destroy, :show]
 
   namespace :api do
