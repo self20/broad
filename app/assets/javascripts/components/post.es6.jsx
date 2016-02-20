@@ -1,4 +1,4 @@
-class Derp extends React.Component {
+class Post extends React.Component {
   render () {
     return (
       <div>
@@ -7,9 +7,8 @@ class Derp extends React.Component {
       </div>
     );
   }
-
-  Derp.propTypes = {
-    title: React.PropTypes.string
-  };
-
 }
+
+Post.propTypes = {
+  title: React.PropTypes.string
+};
