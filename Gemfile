@@ -71,6 +71,9 @@ gem 'bootstrap-kaminari-views', '~> 0.0.5'
 # Time Ago Javascript
 gem 'rails-timeago', '~> 2.13'
 
+# React
+gem 'react-rails', '~> 1.6.0'
+
 group :development, :test do
   gem 'better_errors', '~> 2.1.1'
   gem 'binding_of_caller', platforms: [:mri_20, :mri_21, :mri_22]
