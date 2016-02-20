@@ -1,8 +1,11 @@
 dependencies:
   pre:
     - cp .env.development .env.test
-    - npm install
     - cd client && npm run build:client
+
+test:
+  override:
+      - bundle exec rspec
 
 deployment:
   production:
