@@ -107,4 +107,9 @@ public/sitemap*
 .env.local
 .env.test
 uploads
-.ruby-tags
+.ruby-tags# React on Rails
+npm-debug.log
+node_modules
+
+# Generated js bundles
+/app/assets/javascripts/generated/*

@@ -4,6 +4,7 @@ Sidekiq::Web.use Rack::Auth::Basic do |username, password|
 end
 
 Rails.application.routes.draw do
+  get 'hello_world', to: 'hello_world#index'
   concern :paginatable do
     get '(page/:page)', :action => :index, :on => :collection, :as => ''
   end
