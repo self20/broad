@@ -2,6 +2,7 @@ dependencies:
   pre:
     - cp .env.development .env.test
     - npm install
+    - cd client && npm run build:client
 
 deployment:
   production:
